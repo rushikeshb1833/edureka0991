@@ -50,8 +50,25 @@ area and working directory
 
 17) git status
 
+#############SAVE THE AS VERSION AND PUT THE VERSION IN LOCAL REPO
+
+18) git commit -m"First commit"  => for all the files in staging area it would put it 
+				    as a version in local repo. Here -m denotes message
+
+19)git status  => working tree as clean because there is no modification or new file in working directory
+
+20) 
 
 
+
+
+
+
+
+
+
+
+ 
 
 
 
