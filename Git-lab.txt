@@ -57,7 +57,109 @@ area and working directory
 
 19)git status  => working tree as clean because there is no modification or new file in working directory
 
-20) 
+########################## To see the commits which we have performed
+
+20) git log 
+
+21) git log --oneline
+
+###GITHUB
+
+22) create github account and create a repo 
+
+#####
+
+
+23) git remote add origin <<git repo url>>
+
+24) git push -u origin master
+
+25) a pop will appear in front of u ....
+
+26) go to git hub.com -> open link https://github.com/settings/tokens/
+generate the classic token  (ensure to tick repo )
+
+27) paste the token in pop up under token tab
+
+28) your files woudl be uploaded 
+if error comes you go to crendentials manager -> window credentials -> search for github credentials and delete github credentials and again push it
+
+29) git remote -v   (show you the remote repo which you have connected with your local) 
+
+####BRANCHING
+
+30) git branch   --> list the branches for me
+
+(it will show the master branch ...* means the current branch)
+
+31) git branch branch1  => create a new branch with name branch1
+
+32) git checkout branch1   => you will move to branch1
+
+33) git branch  => you will star marked on branch1
+
+34) touch file1inbranch1
+
+35) git add . 
+
+36) git commit -m"c1 in branch1"
+
+37) git log --oneline
+
+38) git checkout master
+
+39) touch file11   =>create a blank file named file11 in master branch
+
+40) git add .
+
+41) git commit -m"c2 in master"
+
+42) git merge branch1   => it will merge the branch1 with master
+
+it will open a file editor where in press i (to insert)
+the text in yellow color you can edit of content of commit
+
+after completing the editing you can press esc :wq
+
+43) git log --oneline --graph 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
